@@ -1,0 +1,44 @@
+/* Background Home page */
+
+.primary-background-color {
+    background: #21212e
+}
+
+.card-background-color {
+    background: #20202c
+}
+
+.card-header-background-color {
+    background: #252533;
+}
+
+
+
+/* Typography */
+
+.yellow-text-color {
+    color: #febb09;
+}
+
+.card-subheader-text-color {
+    color: #66667c;
+}
+
+.section-header-color {
+    color: #66667e;
+}
+
+
+/* Common */
+
+.transparent {
+    color: transparent;
+}
+
+.transparent-background {
+    background: transparent;
+}
+
+.white-text {
+    color: white 
+}

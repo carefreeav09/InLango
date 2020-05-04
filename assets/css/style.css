@@ -1,0 +1,68 @@
+/* Header Navigation */
+
+.custom-navbar-style {
+  padding: 1.5rem 1rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.underlined {
+    border-bottom: 1px solid;
+}
+
+@media (min-width: 992px) {
+
+    .body{
+        overflow-x: hidden;
+        color: white
+    }
+
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+
+  .active .nav-link {
+    border: 1px solid white;
+    border-radius: 5%;
+  }
+
+  .section {
+      min-height: 100vh;
+  }
+
+  .hero-section h1, .hero-section h1 small{
+      font-weight: 300;
+  }
+
+  .side-image-holder {
+    position: absolute;
+    right: -20%;
+    top: 55%;
+  }
+
+  .side-image-holder img{
+      height: 200%;
+  }
+
+  
+.banner-title {
+    padding-top: 10rem !important;
+    padding-left: 10rem !important;
+}
+}
+
+@media (max-width: 992px) {
+    .side-image-holder{
+        display: none;
+    }
+
+    .banner-title {
+        padding-top: 5rem;
+    }
+}
