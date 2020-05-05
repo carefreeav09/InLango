@@ -77,6 +77,11 @@
 }
 
 @media (max-width: 992px) {
+
+  .body {
+    color : white
+  }
+
   .side-image-holder {
     display: none;
   }
