@@ -52,11 +52,13 @@
   .side-image-holder {
     position: absolute;
     right: 0%;
-    top: 40%;
+    top: 35%;
   }
 
   .side-image-holder img {
-    height: 70vh;
+    height: 80vh;
+    width: 360px;
+
   }
 
   .banner-title {
