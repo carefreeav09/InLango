@@ -12,9 +12,6 @@
   border-bottom: 1px solid;
 }
 
-.line-height-sparse {
-  line-height: 30px;
-}
 
 .flex-center {
   display: flex;
@@ -74,6 +71,22 @@
     padding-left: 10rem;
     padding-right: 10rem
   }
+
+  .white-section {
+    height: 50vh;
+    background: white;
+    margin-top: -40vh;
+  }
+
+
+.line-height-sparse {
+  line-height: 30px;
+}
+
+.section-below-white
+{
+  margin-top: -20vh;
+}
 }
 
 @media (max-width: 992px) {
@@ -89,6 +102,11 @@
   .banner-title {
     padding-top: 5rem;
   }
+
+
+.line-height-sparse {
+  line-height: 20px;
+}
 }
 
 @media(min-width: 1880px){
